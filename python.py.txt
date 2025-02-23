@@ -1,0 +1,82 @@
+#simple & basic Syntax using PRINT statement.
+print("Helo poojaa")
+print(10)
+
+# define variable.
+#Variables: age,name. Assigning a value : ‘Pooja’, 25) 
+age = 25
+name = "Pooja"
+next_year_age = age + 1
+print("Name:", name)
+print("Current Age:", age)
+print("Next Year Age:", next_year_age)
+
+
+#Datatype in python 
+#1.Integer = (number),
+#2.Float = (number with decimal values), 
+#3.String = ( text),
+#4.Boolean = (true or false),
+#5.List = (collection of  text), 
+#6.Tuple = (hold different data types like: int,str),
+#7.Dictionary = (key-value. Eg:name(key) :pooja(value),
+#8.Set = (any element with curly braces{}).
+
+age = 30
+print(type( age))
+height = 5.4
+print(type(height))
+comp= 2 + 4j
+print(type(c))
+name = "Pooja"
+print(type(name))
+student = True
+print(type(student))
+fruits = ["apple", "banana", "cherry"]
+print(type( fruits))
+c= (10, 20)
+print(type(c))
+Detail = {"name": "John", "age": 25}
+print(type(Detail))
+numbers = {1, 2, 3, 4}
+print(type(numbers))
+
+#define variable
+#To print value: (‘pooja’) in Variable: ( 'name' ) and value :(‘10’), in Variable (X).
+x = 10
+print(x)
+name = "pooja"
+print(name)
+
+#Concatenate
+a="pooja is"
+b="sleeping"
+c= a+ "    " +b
+print(c)
+
+#Simple calculator with 2 variable.
+#which will perform : Addition, Subtraction, Multiplication, Division.
+A=10
+B=40
+C=A+B
+D=A-B
+E=A/B
+F=A*B
+print("Addition:",C)
+print("Subtraction:",D)
+print("Division:",E)
+print("multiplicaion:",F)
+
+#2.another simple calc with 2 var
+A= int (input("Enter the value of A:"))
+B= int (input("Enter the value of B:"))
+C= A+B
+D= A-B
+E= A/B
+F= A*B
+print("The result of  C is :",C)
+print("The result of  D is :",D)
+print("The result of  E is :",E)
+print("The result of  F is :",F)
+
+
